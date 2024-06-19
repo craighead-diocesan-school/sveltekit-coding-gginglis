@@ -2,6 +2,7 @@
     <a href="/">home</a>
     <a href="/input output">input output</a>
     <a href="/selection">selection</a>
+    <a href="/iteration">iteration</a>
 </nav>
 
 <style>
