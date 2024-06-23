@@ -7,7 +7,7 @@
 <body>
     <Header />
 
-    <h2>summer fridays</h2>
+    <h2>summer fridays lip butter balm</h2>
     <ProductList />
 
     <Footer />
@@ -23,6 +23,6 @@
         font-weight: 1000;
         font-size: 1.7rem;
         color: rgb(38, 41, 116);
-        margin: 30px;
+        padding: 30px;
     }
 </style>

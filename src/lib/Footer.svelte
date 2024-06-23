@@ -6,7 +6,7 @@
     footer {
         font-family: "Red Hat Display", sans-serif;
         font-weight: 900;
-        color: rgba(38, 41, 116, 0.658);
+        color: rgba(38, 41, 116);
         font-size: 1.25rem;
         text-align: center;
         padding: 50px;

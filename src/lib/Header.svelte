@@ -1,3 +1,7 @@
+<script>
+  import { page } from "$app/stores";
+</script>
+
 <div class="banner">
   <header class="hero">
     <div class="hero-body">
@@ -7,10 +11,17 @@
   </header>
 
   <nav>
-    <a href="/">home</a>
-    <a href="/input output">input output</a>
-    <a href="/selection">selection</a>
-    <a href="/iteration">iteration</a>
+    <a class:is-active={$page.url.pathname == "/"} href="/">home</a>
+    <a
+      class:is-active={$page.url.pathname == "/input output"}
+      href="/input output">input output</a
+    >
+    <a class:is-active={$page.url.pathname == "/selection"} href="/selection"
+      >selection</a
+    >
+    <a class:is-active={$page.url.pathname == "/iteration"} href="/iteration"
+      >iteration</a
+    >
   </nav>
 </div>
 
@@ -47,5 +58,9 @@
 
   .banner {
     display: flex;
+  }
+
+  .is-active {
+    color: rgba(38, 41, 116, 0.658);
   }
 </style>

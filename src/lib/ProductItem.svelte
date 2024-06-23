@@ -10,9 +10,9 @@
 
 <main>
     <div class="item" style="background-color: {bgColour}; ">
-        <img src={image} alt="" style="box-shadow: 7px 7px 7px -5px{shadow};" />
+        <img src={image} alt="" style="box-shadow: 5px 5px 7px -5px{shadow};" />
 
-        <h2 style="text-shadow: 1.5px 1.5px{shadow};">{name}</h2>
+        <h2 style="text-shadow: 1.3px 1.3px{shadow};">{name}</h2>
         <h3 style="text-shadow: 1px 1px{shadow};">${price}</h3>
         <p style="text-shadow: 1px 1px{shadow};">{description}</p>
     </div>

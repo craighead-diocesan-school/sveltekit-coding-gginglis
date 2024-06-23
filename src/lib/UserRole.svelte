@@ -23,7 +23,7 @@
     h2 {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        padding-left: 30px;
         font-weight: bold;
         font-size: 1.2rem;
         color: rgb(38, 41, 116);

@@ -56,6 +56,6 @@
     border: solid rgb(38, 41, 116) 3px;
   }
   main {
-    margin-left: 50px;
+    padding-left: 50px;
   }
 </style>
