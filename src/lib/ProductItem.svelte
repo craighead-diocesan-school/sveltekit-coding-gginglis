@@ -35,6 +35,7 @@
         font-weight: 1000;
         color: #e8f2f6;
         font-size: 1.3rem;
+        background-color: inherit;
     }
 
     h3 {
@@ -42,6 +43,7 @@
         font-weight: 600;
         color: #e8f2f6;
         font-size: 1.2rem;
+        background-color: inherit;
     }
 
     p {
@@ -49,5 +51,6 @@
         font-weight: 500;
         color: #e8f2f6;
         font-size: 1.2rem;
+        background-color: inherit;
     }
 </style>

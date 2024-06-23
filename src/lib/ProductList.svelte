@@ -37,7 +37,7 @@
 </script>
 
 <main>
-    {#each products as product (product.name)}
+    {#each products as product}
         <ProductItem {...product} />
     {/each}
 </main>

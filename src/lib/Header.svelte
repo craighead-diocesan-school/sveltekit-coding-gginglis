@@ -13,8 +13,8 @@
   <nav>
     <a class:is-active={$page.url.pathname == "/"} href="/">home</a>
     <a
-      class:is-active={$page.url.pathname == "/input output"}
-      href="/input output">input output</a
+      class:is-active={$page.url.pathname == "/input-output"}
+      href="/input-output">input output</a
     >
     <a class:is-active={$page.url.pathname == "/selection"} href="/selection"
       >selection</a

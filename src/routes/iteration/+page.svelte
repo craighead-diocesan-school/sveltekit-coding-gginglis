@@ -4,19 +4,20 @@
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<body>
-    <Header />
+<!-- <body> -->
+<Header />
 
-    <h2>summer fridays lip butter balm</h2>
-    <ProductList />
+<h2>summer fridays lip butter balm</h2>
+<ProductList />
 
-    <Footer />
-</body>
+<Footer />
+
+<!-- </body> -->
 
 <style>
-    body {
+    /* body {
         background-color: #e8f2f6;
-    }
+    } */
 
     h2 {
         font-family: "Red Hat Display", sans-serif;
