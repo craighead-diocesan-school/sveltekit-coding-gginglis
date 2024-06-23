@@ -1,11 +1,28 @@
 <script>
     import Header from "$lib/Header.svelte";
-    import Nav from "$lib/Nav.svelte";
     import ProductList from "$lib/ProductList.svelte";
+    import Footer from "$lib/Footer.svelte";
 </script>
 
-<Header />
+<body>
+    <Header />
 
-<Nav />
+    <h2>summer fridays</h2>
+    <ProductList />
 
-<ProductList />
+    <Footer />
+</body>
+
+<style>
+    body {
+        background-color: #e8f2f6;
+    }
+
+    h2 {
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 1000;
+        font-size: 1.7rem;
+        color: rgb(38, 41, 116);
+        margin: 30px;
+    }
+</style>

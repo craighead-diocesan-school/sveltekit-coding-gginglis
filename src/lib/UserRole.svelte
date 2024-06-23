@@ -24,9 +24,14 @@
         display: flex;
         flex-direction: column;
         margin-left: 30px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: rgb(38, 41, 116);
+        font-family: "Red Hat Display", sans-serif;
     }
 
     input {
         margin-left: 30px;
+        border: solid rgb(38, 41, 116) 3px;
     }
 </style>

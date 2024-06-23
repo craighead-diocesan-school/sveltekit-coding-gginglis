@@ -1,6 +1,6 @@
 <script>
     let ImageUrl = "https://picsum.photos/200";
-    let caption = "fire emoji";
+    let caption = "🔥🔥";
     let linkUrl = "https://www.google.com";
 </script>
 
@@ -20,8 +20,8 @@
         padding: 1.5rem;
         width: fit-content;
         border-radius: 10px;
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        box-shadow: 0 8px 32px 0 rgb(0, 0, 0.37);
         backdrop-filter: blur(4px);
-        background: rgba(98, 217, 255, 0.25);
+        background-color: rgb(95, 97, 164);
     }
 </style>

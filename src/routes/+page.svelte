@@ -1,12 +1,21 @@
 <script>
     import Header from "$lib/Header.svelte";
-    import Nav from "$lib/Nav.svelte";
+    import Footer from "$lib/Footer.svelte";
+    import ImageCard from "../lib/ImageCard.svelte";
+    import HiButton from "../lib/HiButton.svelte";
 </script>
 
 <Header />
 
-<Nav />
+<main>
+    <HiButton />
+    <ImageCard />
+</main>
 
-<footer>
-    <p>&copy; Craighead Diocesan School 2024</p>
-</footer>
+<Footer />
+
+<style>
+    main {
+        display: flex;
+    }
+</style>
